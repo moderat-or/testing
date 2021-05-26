@@ -1,0 +1,431 @@
+* {
+  margin: 0;
+}
+.container {
+  width: 1440px;
+}
+.up {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+}
+.logo {
+  position: absolute;
+  width: 187px;
+  height: 29.27px;
+  left: 85px;
+  top: 85px;
+
+  font-family: Intro Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32.404px;
+  line-height: 113.5%;
+
+  letter-spacing: -0.01em;
+  font-feature-settings: "ordn" on;
+
+  color: #212121;
+}
+.up-right {
+  display: flex;
+  flex: 1;
+  position: absolute;
+  width: 901px;
+  height: 18px;
+  left: 584px;
+  top: 90px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #1c9ba4;
+}
+.shop {
+  margin-left: 3%;
+}
+.individual {
+  margin-left: 3%;
+}
+.school {
+  margin-left: 3%;
+}
+.contacts {
+  margin-left: 3%;
+}
+.Vector {
+  position: absolute;
+  left: 707px;
+  width: 11px;
+  height: 10px;
+}
+.Vector1 {
+  position: absolute;
+  top: 40%;
+  left: 700px;
+  width: 25px;
+  height: 16px;
+}
+.title {
+  position: absolute;
+  width: 654.31px;
+  height: 134px;
+  left: 83px;
+  top: 265px;
+
+  font-family: Intro Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 113.5%;
+
+  font-feature-settings: "ordn" on;
+
+  color: #222222;
+}
+.title-mini {
+  position: absolute;
+  width: 426px;
+  height: 78px;
+  left: 86px;
+  top: 394px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 150%;
+  /* or 31px */
+
+  color: #1b1b1b;
+}
+.buy {
+  position: absolute;
+  width: 304px;
+  height: 59px;
+  left: 88px;
+  top: 525px;
+
+  background: #1c9ba4;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.keram {
+  position: absolute;
+  width: 341.55px;
+  height: 520.18px;
+  left: 664.31px;
+  top: 152.88px;
+}
+.kruassany {
+  position: absolute;
+  width: 312px;
+  height: 440px;
+  left: 1040px;
+  top: 376px;
+}
+.facebook {
+  position: absolute;
+  left: 87px;
+  top: 796px;
+}
+.vk {
+  position: absolute;
+  left: 145px;
+  top: 798px;
+}
+.instagram {
+  position: absolute;
+  left: 205px;
+  top: 796px;
+}
+.pinterest {
+  position: absolute;
+  top: 796px;
+  left: 265px;
+}
+.st1-l {
+  position: absolute;
+  width: 2.94px;
+  height: 28.47px;
+  left: 980.13px;
+  top: 686px;
+
+  background: #1c9ba4;
+  transform: rotate(45deg);
+}
+.st1-r {
+  position: absolute;
+  width: 2.94px;
+  height: 27px;
+  left: 999px;
+  top: 688px;
+
+  background: #1c9ba4;
+  transform: rotate(-45deg);
+}
+.st2-l {
+  position: absolute;
+  width: 2.94px;
+  height: 28.47px;
+  left: 982.21px;
+  top: 813.92px;
+
+  background: #1c9ba4;
+  transform: rotate(135deg);
+}
+.st2-r {
+  position: absolute;
+  width: 2.94px;
+  height: 28px;
+  left: 1000px;
+  top: 814px;
+
+  background: #1c9ba4;
+  transform: rotate(-135deg);
+}
+.tsu {
+  position: absolute;
+  width: 1631px;
+  height: 620px;
+  left: -175px;
+  top: 901px;
+}
+.in-l {
+  position: absolute;
+  width: 426px;
+  height: 78px;
+  left: 688px;
+  top: 981px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 150%;
+
+  color: #1b1b1b;
+}
+.in-r {
+  position: absolute;
+  width: 267px;
+  height: 78px;
+  left: 1040px;
+  top: 981px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 150%;
+  /* or 31px */
+
+  color: #1b1b1b;
+}
+.in-l-min {
+  position: absolute;
+  width: 295px;
+  height: 354px;
+  left: 688px;
+  top: 1074px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 170%;
+  /* or 27px */
+
+  color: #1b1b1b;
+}
+.in-r-min {
+  position: absolute;
+  width: 287px;
+  height: 304px;
+  left: 1040px;
+  top: 1074px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 170%;
+  /* or 27px */
+
+  color: #1b1b1b;
+}
+.news {
+  position: absolute;
+  width: 302px;
+  height: 57px;
+  left: 85px;
+  top: 1583px;
+
+  font-family: Intro Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 113.5%;
+  /* or 45px */
+
+  font-feature-settings: "ordn" on;
+
+  color: #222222;
+}
+.first-art {
+  position: absolute;
+  width: 280px;
+  height: 367px;
+  left: 80px;
+  top: 1654px;
+}
+.inf-1 {
+  position: absolute;
+  width: 280px;
+  height: 152px;
+  left: 80px;
+  top: 2009px;
+
+  background: #f7f7f7;
+}
+.text-1 {
+  position: absolute;
+  width: 238px;
+  height: 33px;
+  left: 20px;
+  top: 20px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 145%;
+  /* or 26px */
+
+  color: #1c9ba4;
+}
+.text-1-1 {
+  position: absolute;
+  width: 135px;
+  height: 19px;
+  left: 20px;
+  top: 50px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #212121;
+}
+.summ1 {
+  position: absolute;
+  width: 98px;
+  height: 23px;
+  left: 20px;
+  top: 105px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #1b1b1b;
+}
+.buy-1 {
+  position: absolute;
+  left: 235px;
+  top: 105px;
+}
+.two-art {
+  position: absolute;
+  width: 280px;
+  height: 367px;
+  left: 416px;
+  top: 1654px;
+}
+.inf-2 {
+  position: absolute;
+  width: 280px;
+  height: 152px;
+  left: 416px;
+  top: 2009px;
+
+  background: #f7f7f7;
+}
+.text-2 {
+  position: absolute;
+  width: 239px;
+  height: 25px;
+  left: 20px;
+  top: 20px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 145%;
+  /* or 26px */
+
+  color: #1c9ba4;
+}
+.text-2-2 {
+  position: absolute;
+  width: 173px;
+  height: 19px;
+  left: 20px;
+  top: 50px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #212121;
+}
+.summ-2 {
+  position: absolute;
+  width: 83px;
+  height: 23px;
+  left: 20px;
+  top: 100px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #1b1b1b;
+}
+.buy-2 {
+  position: absolute;
+  left: 235px;
+  top: 105px;
+}
+.third-art {
+  position: absolute;
+  width: 280px;
+  height: 367px;
+  left: 717px;
+  top: 1640px;
+}
+.fourth-art {
+  position: absolute;
+  width: 335px;
+  height: 419px;
+  left: 1352px;
+  top: 1613px;
+}
+.fivth-art {
+}
