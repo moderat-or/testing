@@ -2,6 +2,8 @@
   margin: 0;
 }
 .container {
+  background-color: aqua;
+  margin-left: 50%;
   width: 1440px;
 }
 .up {
